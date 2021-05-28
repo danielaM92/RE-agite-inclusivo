@@ -7,7 +7,6 @@
 
 .quienes__title__width {
     max-width: 1920px;
-    padding: 3% 0;
 }
 
 .quienes__titulo__saludo {
@@ -102,4 +101,51 @@
 .quienes__agitadoras__descripcion {
     font-size: 2.8rem;
     color: #000;
+}
+
+@media screen and (max-width: 650px) {
+    .quienes__titulo__saludo{
+        font-size: 10rem;
+    }
+    .quienes__titulo__nombres{
+        font-size: 5.6rem;
+        margin-bottom: 10px;
+    }
+    .estrellita-fucsia {
+        width: 8vh;
+    }
+    .destacado-imagen{
+        width: 100%;
+    }
+    .quienes__titulo__subtitulo {
+        font-size: 3.5rem;
+    }
+    .quienes__intro__comilla {
+        font-size: 5.8rem;
+    }
+    .quienes__intro__frase {
+        font-size: 5.8rem;
+        text-align: center;
+    }
+    /* INTRO */
+    .destacado-parrafo{
+        font-size: 2.3rem;
+    }
+    .img-fluid{
+        width: 100% !important;
+    }
+
+    /* AGITADORAS */
+    .quienes__agitadoras{
+        height: 100% !important;
+        width: 100% !important;
+    }
+   
+    .quienes__agitadoras__nombre{
+        font-size: 4.6rem !important;
+        line-height: 5rem;
+    }
+    .quienes__agitadoras__descripcion{
+        font-size: 1.8rem !important;
+    }
 }

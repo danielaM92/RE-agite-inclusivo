@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="assets/css/media-queries.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
 
+    <!-- LIGHTBOX -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
     <!-- NUESTROS ESTILOS -->
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/animacion.css">
@@ -104,28 +107,42 @@
                     <div id="carousel-example" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner row w-100 mx-auto" role="listbox">
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-                                <img src="images/animaciones/frame1.jpg" class="img-fluid mx-auto d-block" alt="Grupo de personas posando para una foto">
+                               <a href="images/animaciones/frame1.jpg" data-lightbox="roadtrip"> 
+                                   <img src="images/animaciones/frame1.jpg" class="img-fluid mx-auto d-block" alt="img1">
+                                </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <img src="images/animaciones/frame2.jpg" class="img-fluid mx-auto d-block" alt="Grupo de personas levantando las manos">
+                                <a href="images/animaciones/frame2.jpg" data-lightbox="roadtrip">    
+                                    <img src="images/animaciones/frame2.jpg" class="img-fluid mx-auto d-block" alt="img2">
+                                </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <img src="images/animaciones/frame3.jpg" class="img-fluid mx-auto d-block" alt="Tres personas sosteniendo carteles">
+                                <a href="images/animaciones/frame3.jpg" data-lightbox="roadtrip">
+                                    <img src="images/animaciones/frame3.jpg" class="img-fluid mx-auto d-block" alt="img3">
+                                </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <img src="images/animaciones/frame4.jpg" class="img-fluid mx-auto d-block" alt="Dos personas juegan ping pong mientras otras hablan en el fondo">
+                                <a href="images/animaciones/frame4.jpg" data-lightbox="roadtrip">
+                                    <img src="images/animaciones/frame4.jpg" class="img-fluid mx-auto d-block" alt="img4">
+                                </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <img src="images/animaciones/frame5.jpg" class="img-fluid mx-auto d-block" alt="Grupo de personas juegan fútbol de mesa mientras otras conversan en el fondo">
+                                <a href="images/animaciones/frame5.jpg" data-lightbox="roadtrip">
+                                    <img src="images/animaciones/frame5.jpg" class="img-fluid mx-auto d-block" alt="img5">
+                                </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <img src="images/animaciones/frame6.jpg" class="img-fluid mx-auto d-block" alt="Un hombre y una joven sonreíen mientras ven al frente">
+                                <a href="images/animaciones/frame6.jpg" data-lightbox="roadtrip">
+                                    <img src="images/animaciones/frame6.jpg" class="img-fluid mx-auto d-block" alt="img6">
+                                </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <img src="images/animaciones/frame7.jpg" class="img-fluid mx-auto d-block" alt="Una mujer le da indicaciones a otra mientras reciben comida">
+                                <a href="images/animaciones/frame7.jpg" data-lightbox="roadtrip">
+                                    <img src="images/animaciones/frame7.jpg" class="img-fluid mx-auto d-block" alt="img7">
+                                </a>
                             </div>
                             <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                                <img src="images/animaciones/frame8.jpg" class="img-fluid mx-auto d-block" alt="Joven juega billar">
+                                <img src="images/animaciones/frame8.jpg" class="img-fluid mx-auto d-block" alt="img8">
                             </div>
                         </div>
                         
@@ -174,8 +191,6 @@
         </div>
     </footer>
 
-</body>
-
 <!-- Script: Separate Popper and Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
     integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
@@ -184,6 +199,9 @@
     integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
 </script>
 
+<!--LIGHTBOX  -->
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="js/lightbox.min.js"></script>
 <!-- CARUSEL -->
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
@@ -196,5 +214,7 @@
 <script src="assets/js/jquery.backstretch.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/scripts.js"></script>
+
+</body>
 
 </html>

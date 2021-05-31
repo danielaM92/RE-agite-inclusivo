@@ -27,24 +27,32 @@
     font-family: 'Changa One', cursive;
     font-size: 14rem;
     color: #DC0B7D;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-bottom: 2%;
+    text-align: center;
 }
 
 .grupos__subtitle__parrafo {
     font-family: 'Changa One', cursive;
     font-size: 10rem;
-    color: #F9AF4C;
+    color: #FFFFFF;
     margin-bottom: 8%;
+    text-align: center;
+}
+
+.grupos__referentes {
+    height: auto;
+    background-color: #F9AF4C;
+    text-align: center !important;
+    margin: 4% 0;
 }
 
 /* BENEFICIOS */
 
 .grupos__beneficios {
     height: auto;
-    background-color: #F9AF4C;
-    text-align: center;
-    padding: 3% 0;
+    text-align: center !important;
+    padding: 1% 0;
 }
 
 .grupos__title__benef {
@@ -60,8 +68,8 @@
 }
 
 .grupos__benef__col {
-    max-width: 500px;
-
+    max-width: 50rem;
+    height: auto;
 }
 
 .col__one {
@@ -76,6 +84,21 @@
     padding-top: 5%;
 }
 
+.item-1 {
+    margin-top: 10%;
+}
+
+.item-4 {
+    margin-top: 1.5%;
+}
+
+
+/* VIDEO */
+.video__grupos {
+    width: 100%;
+    height: auto;
+    padding: 4% 0 6% 0;
+}
 
 /* RESPONSIVE */
 @media screen and (max-width: 1960px) {
@@ -84,7 +107,8 @@
     }
 
     .grupos__titulo__main {
-        font-size: 20rem;
+        font-size: 18rem;
+        line-height: 18rem;
         margin-bottom: 8%;
         padding-right: 4%;
     }
@@ -103,18 +127,28 @@
     
     .grupos__subtitle {
         font-family: 'Changa One', cursive;
-        font-size: 14rem;
+        font-size: 10rem;
         color: #DC0B7D;
-        margin-top: 10%;
         padding-bottom: 2%;
     }
     
     .grupos__subtitle__parrafo {
         font-family: 'Changa One', cursive;
-        font-size: 10rem;
-        color: #F9AF4C;
+        font-size: 8rem;
+        color: #FFFFFF;
         margin-bottom: 8%;
     }
+
+    /* BENEFICIOS */
+
+    .item-2 {
+        margin-top: 0.2%;
+    }
+
+    .item-4 {
+        margin-top: 5%;
+    }
+
 }
 
 @media screen and (max-width: 1449px) {
@@ -129,9 +163,9 @@
     }
     
     .destacado-parrafo {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
         padding-right: 2%;
-        padding-top: 4%;
+        padding-bottom: 2%;
     }
     
     .grupos-destacado {
@@ -144,22 +178,27 @@
     
     .grupos__subtitle {
         font-family: 'Changa One', cursive;
-        font-size: 14rem;
+        font-size: 8rem;
         color: #DC0B7D;
-        margin-top: 10%;
         padding-bottom: 2%;
     }
     
     .grupos__subtitle__parrafo {
         font-family: 'Changa One', cursive;
-        font-size: 10rem;
-        color: #F9AF4C;
-        margin-bottom: 8%;
+        font-size: 6rem;
+        color: #FFFFFF;
+        margin-bottom: 5%;
+    }
+
+    .grupos__referentes {
+        height: auto;
+        background-color: #F9AF4C;
+        text-align: center !important;
+        margin: 2% 0;
     }
 
     .grupos__beneficios {
         height: auto;
-        background-color: #F9AF4C;
         text-align: center;
         padding: 3% 0;
     }
@@ -175,11 +214,54 @@
         font-size: 2.8rem;
         color: #000;
     }
-    
+
     .grupos__benef__col {
-        max-width: 100%;
-    
+        max-width: 50rem;
+        height: auto;
     }
+    
+    .col__one {
+        margin-left: 10%;
+    }
+    
+    .col__two {
+        margin-right: 10%;
+    }
+    
+    .col__three {
+        padding-top: 5%;
+    }
+    
+    .item-1 {
+        margin-top: 10%;
+    }
+    
+    .item-4 {
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .grupos__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        color: #DC0B7D;
+        margin-top: 10%;
+        padding-bottom: 2%;
+    }
+    
+    .grupos__subtitle__parrafo {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        color: #FFFFFF;
+        margin-bottom: 8%;
+    }
+
+    .grupos__benef__descripcion {
+        font-size: 1.6rem;
+    }
+
 
     .col__one {
         margin-left: 0%;
@@ -190,9 +272,8 @@
     }
     
     .col__three {
-        padding-top: 0%;
+        padding-top: 7%;
     }
-
 }
 
 @media screen and (max-width: 980px) {
@@ -234,13 +315,19 @@
     .grupos__subtitle__parrafo {
         font-family: 'Changa One', cursive;
         font-size: 5rem;
-        color: #F9AF4C;
+        color: #FFFFFF;
         margin-bottom: 8%;
+    }
+
+    .grupos__referentes {
+        height: auto;
+        background-color: #F9AF4C;
+        text-align: center !important;
+        margin: 4% 0;
     }
 
     .grupos__beneficios {
         height: auto;
-        background-color: #F9AF4C;
         text-align: center;
         padding: 10% 0;
     }
@@ -289,7 +376,7 @@
     }
     
     .destacado-parrafo {
-        font-size: 2.8rem;
+        font-size: 2rem;
         padding-right: 2%;
         padding-top: 4%;
     }
@@ -299,7 +386,8 @@
     }
 
     .destacado-imagen {
-        margin-top: 10%;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
     
     
@@ -315,14 +403,13 @@
     
     .grupos__subtitle__parrafo {
         font-family: 'Changa One', cursive;
-        font-size: 4rem;
-        color: #F9AF4C;
+        color: #FFFFFF;
+        font-size: 3rem;
         margin-bottom: 8%;
     }
 
     .grupos__beneficios {
         height: auto;
-        background-color: #F9AF4C;
         text-align: center;
         padding: 10% 0;
     }
@@ -353,6 +440,86 @@
     }
     
     .col__three {
+        padding-top: 5%;
+    }
+
+    .item-4 {
+        padding-top: 5%;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .grupos__title {
+        padding: 0 4%;
+    }
+
+    .grupos__titulo__main {
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 8%;
+    }
+    
+    .destacado-parrafo {
+        font-size: 1.8rem;
+        padding-right: 2%;
+        padding-top: 4%;
+    }
+    
+    
+    /* SUBTITULO REFERENTES */
+    
+    .grupos__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        color: #DC0B7D;
+        margin-top: 10%;
+        padding-bottom: 2%;
+    }
+    
+    .grupos__subtitle__parrafo {
+        font-family: 'Changa One', cursive;
+        color: #FFFFFF;
+        font-size: 3rem;
+        margin-bottom: 10%;
+    }
+
+    .grupos__beneficios {
+        height: auto;
+        text-align: center;
+        padding: 10% 4%;
+    }
+
+    .grupos__title__benef {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        color: #DC0B7D;
+        padding-bottom: 5%;
+    }
+    
+    .grupos__benef__descripcion {
+        font-size: 1.8rem;
+        color: #000;
+    }
+    
+    .grupos__benef__col {
+        max-width: 100%;
+        padding: 5% 0;
+    }
+
+    .col__one {
+        margin-left: 0%;
+    }
+    
+    .col__two {
+        margin-right: 0%;
+    }
+    
+    .col__three {
+        padding-top: 5%;
+    }
+
+    .item-4 {
         padding-top: 5%;
     }
 

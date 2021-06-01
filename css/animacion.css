@@ -115,6 +115,8 @@
     }
     
     .estrellita-fucsia {
+        width: auto;
+        height: 6rem;
         padding-left: 5%;
     }
 }

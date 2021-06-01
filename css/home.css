@@ -1,10 +1,3 @@
-/*
-body {
-    background-image: url('../images/home/background.jpg');
-    color: #fff;
-}
-*/
-
 .home__title {
     max-width: 1920px;
 }
@@ -15,6 +8,7 @@ body {
     color: #0098a6;
     line-height: 23.4rem;
     text-transform: uppercase;
+    margin-top: 4%;
 }
 
 .home__subtitle__main {
@@ -22,7 +16,7 @@ body {
     font-size: 23.4rem;
     color: #F9AF4C;
     line-height: 23.4rem;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
     text-transform: uppercase;
 }
 
@@ -39,7 +33,7 @@ img {
 /* CUADRO NARANJA HOME */
 
 .home__contain {
-    max-height: 950px;
+    height: auto;
     background-color: #F9AF4C;
     padding-top: 3%;
     text-transform: uppercase;
@@ -47,7 +41,6 @@ img {
 
 .home__contain__orange {
     max-width: 1920px;
-    max-height: 100vh;
 }
 
 .home__orange__title {
@@ -56,13 +49,13 @@ img {
     color: #fff;
     line-height: 23.4rem;
     text-transform: uppercase;
+    padding: 0 5%;
 }
 
 .home__orange__subtitle {
     font-family: 'Changa One', cursive;
     font-size: 23.4rem;
     color: #0098A6;
-    line-height: 23.4rem;
     text-transform: uppercase;
 }
 
@@ -71,6 +64,7 @@ img {
     color: #424242;
     padding-left: 27%;
     text-transform: uppercase;
+    margin-bottom: 5%;
 }
 
 .estrellita-fucsia {
@@ -81,81 +75,470 @@ img {
     padding-right: 2%;
 }
 
-@media screen and (min-width: 650px) and (max-width:950px){
-    .home__titulo__main{
-        font-size: 8rem !important;
-        line-height: 8rem;
-    }
-    .home__subtitle__main{
-        font-size: 7rem !important;
-        line-height: 8rem;
 
+/* RESPONSIVE */
+@media screen and (max-width: 1440px) {
+    .home__title {
+        padding: 0 5%;
     }
-    .re-doblecolor{
-        width: 21%;
-        margin-left: 10px;
+
+    .home__titulo__main {
+        font-size: 18rem;
+        color: #0098a6;
+        line-height: 17rem;
+        margin-top: 4%;
     }
-    .re-arrow{
-        width: 29% !important;
+
+    .home__subtitle__main {
+        font-family: 'Changa One', cursive;
+        font-size: 18rem;
+        color: #F9AF4C;
+        line-height: 17rem;
+        margin-bottom: 3%;
+        text-transform: uppercase;
+    }
+
+    img {
+        vertical-align: baseline;
+    }
+
+    .re-doblecolor {
+        width: 25rem;
+        height: auto;
+    }
+
+    .re-arrow {
+        width: 20rem;
+        height: auto;
+        vertical-align: middle;
         margin-right: 2%;
     }
+
+    /* CUADRO NARANJA HOME */
+
+    .home__orange__title {
+        font-family: 'Changa One', cursive;
+        font-size: 18rem;
+        color: #fff;
+        line-height: 18rem;
+        text-transform: uppercase;
+    }
+
+    .home__orange__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 18rem;
+        color: #0098A6;
+        text-transform: uppercase;
+    }
+
+    .home__slogan {
+        font-size: 5rem;
+        color: #424242;
+        padding-left: 24%;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+
     .estrellita-fucsia {
-        width: 10% !important;
+        height: 8rem;
+        width: auto;
+        padding: 0 1%;
     }
-    .home__orange__title{
-        font-size: 8rem !important;
-        line-height: 8rem;
+
+    .estrellita-fucsia-three {
+        padding-right: 2%;
     }
-    .home__orange__subtitle{
-        font-size: 8rem !important;
-        line-height: 8rem;
-    }
-    .home__slogan{
-        font-size: 3rem;
-        padding-left: 2%;
-    }
-    .footer__item{
-        font-size: 2rem !important;
-    }
+
 }
 
-@media screen and (max-width: 650px) {
-    
-    .home__titulo__main{
-        font-size: 4rem !important;
-        line-height: 5rem;
-    }
-    .home__subtitle__main{
-        font-size: 4rem !important;
-        line-height: 5rem;
 
+@media screen and (max-width: 1024px) {
+    .home__title {
+        padding: 0 5%;
     }
-    .re-doblecolor{
-        width: 21%;
-        margin-left: 10px;
+
+    .home__titulo__main {
+        font-size: 12rem;
+        color: #0098a6;
+        line-height: 10rem;
+        margin-top: 4%;
     }
-    .re-arrow{
-        width: 30% !important;
+
+    .home__subtitle__main {
+        font-family: 'Changa One', cursive;
+        font-size: 12rem;
+        color: #F9AF4C;
+        margin-bottom: 3%;
+        text-transform: uppercase;
+    }
+
+    img {
+        vertical-align: baseline;
+    }
+
+    .re-doblecolor {
+        width: 18rem;
+        height: auto;
+    }
+
+    .re-arrow {
+        width: 20rem;
+        height: auto;
+        vertical-align: middle;
         margin-right: 2%;
     }
-    .estrellita-fucsia {
-        width: 10% !important;
-    }
-    .home__orange__title{
-        font-size: 4.6rem !important;
-        line-height: 7rem;
-    }
-    .home__orange__subtitle{
-        font-size: 4rem !important;
-        line-height: 7rem;
-    }
-    .home__slogan{
-        font-size: 2.1rem;
-        line-height: 3rem;
-        padding-left: 2%;
 
+    /* CUADRO NARANJA HOME */
+
+    .home__orange__title {
+        font-family: 'Changa One', cursive;
+        font-size: 12rem;
+        color: #fff;
+        line-height: 10rem;
+        text-transform: uppercase;
     }
-    .footer__item{
-        font-size: 1.6rem !important;
+
+    .home__orange__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 11rem;
+        color: #0098A6;
+        text-transform: uppercase;
     }
+
+    .home__slogan {
+        font-size: 4.6rem;
+        line-height: 5rem;
+        color: #424242;
+        padding-left: 24%;
+        padding-right: 10%;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+
+    .estrellita-fucsia {
+        height: 6rem;
+        width: auto;
+        padding: 0 0 0 2%;
+    }
+
+    .estrellita-fucsia-three {
+        padding-right: 2%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .home__title {
+        padding: 0 5%;
+    }
+
+    .home__titulo__main {
+        font-size: 8rem;
+        color: #0098a6;
+        line-height: 7rem;
+        margin-top: 4%;
+    }
+
+    .home__subtitle__main {
+        font-family: 'Changa One', cursive;
+        font-size: 8rem;
+        line-height: 7rem;
+        color: #F9AF4C;
+        margin-bottom: 8%;
+        text-transform: uppercase;
+    }
+
+    img {
+        vertical-align: baseline;
+    }
+
+    .re-doblecolor {
+        width: 12rem;
+        height: auto;
+    }
+
+    .re-arrow {
+        width: 20rem;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 2%;
+    }
+
+    /* CUADRO NARANJA HOME */
+
+    .home__orange__title {
+        font-family: 'Changa One', cursive;
+        font-size: 9rem;
+        color: #fff;
+        line-height: 6rem;
+        text-transform: uppercase;
+        margin-top: 3%;
+    }
+
+    .home__orange__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 8rem;
+        color: #0098A6;
+        text-transform: uppercase;
+    }
+
+    .home__slogan {
+        font-size: 3rem;
+        line-height: 3rem;
+        color: #424242;
+        padding-left: 24%;
+        padding-right: 20%;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+
+    .estrellita-fucsia {
+        height: 5rem;
+        width: auto;
+        padding: 0 0 0 1%;
+    }
+
+    .estrellita-fucsia-three {
+        padding-right: 2%;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .home__title {
+        padding: 0 5%;
+    }
+
+    .home__titulo__main {
+        font-size: 5rem;
+        color: #0098a6;
+        line-height: 6rem;
+        margin-top: 4%;
+    }
+
+    .home__subtitle__main {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        line-height: 5rem;
+        color: #F9AF4C;
+        margin-bottom: 8%;
+        text-transform: uppercase;
+    }
+
+    img {
+        vertical-align: baseline;
+    }
+
+    .re-doblecolor {
+        width: 8rem;
+        height: auto;
+    }
+
+    .re-arrow {
+        width: 10rem;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 2%;
+    }
+
+    /* CUADRO NARANJA HOME */
+
+    .home__orange__title {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        color: #fff;
+        line-height: 5rem;
+        text-transform: uppercase;
+        margin-top: 3%;
+    }
+
+    .home__orange__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        color: #0098A6;
+        text-transform: uppercase;
+    }
+
+    .home__slogan {
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #424242;
+        padding-left: 26%;
+        padding-right: 10%;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+
+    .estrellita-fucsia {
+        height: 3rem;
+        width: auto;
+        padding: 0 0 0 1%;
+    }
+
+    .estrellita-fucsia-three {
+        padding-right: 2%;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .home__title {
+        padding: 0 5%;
+    }
+
+    .home__titulo__main {
+        font-size: 5rem;
+        color: #0098a6;
+        line-height: 6rem;
+        margin-top: 4%;
+    }
+
+    .home__subtitle__main {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        line-height: 5rem;
+        color: #F9AF4C;
+        margin-bottom: 8%;
+        text-transform: uppercase;
+    }
+
+    img {
+        vertical-align: baseline;
+    }
+
+    .re-doblecolor {
+        width: 8rem;
+        height: auto;
+    }
+
+    .re-arrow {
+        width: 7rem;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 2%;
+    }
+
+    /* CUADRO NARANJA HOME */
+
+    .home__orange__title {
+        font-family: 'Changa One', cursive;
+        font-size: 4.5rem;
+        color: #fff;
+        line-height: 5rem;
+        text-transform: uppercase;
+        margin-top: 3%;
+    }
+
+    .home__orange__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 4rem;
+        color: #0098A6;
+        text-transform: uppercase;
+    }
+
+    .home__slogan {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        color: #424242;
+        padding-left: 30%;
+        padding-right: 10%;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+
+    .estrellita-fucsia {
+        height: 3rem;
+        width: auto;
+        padding: 0 0 0 1%;
+    }
+
+    .estrellita-fucsia-three {
+        padding-right: 2%;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .home__title {
+        padding: 0 10%;
+    }
+
+    .home__titulo__main {
+        font-size: 3.5rem;
+        color: #0098a6;
+        line-height: 4rem;
+        margin-top: 4%;
+    }
+
+    .home__subtitle__main {
+        font-family: 'Changa One', cursive;
+        font-size: 3.5rem;
+        line-height: 3rem;
+        color: #F9AF4C;
+        margin-bottom: 8%;
+        text-transform: uppercase;
+    }
+
+    img {
+        vertical-align: baseline;
+    }
+
+    .re-doblecolor {
+        width: 5.3rem;
+        height: auto;
+    }
+
+    .re-arrow {
+        width: 5rem;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 2%;
+    }
+
+    /* CUADRO NARANJA HOME */
+
+    .home__contain {
+        padding: 0 8%;
+    }
+
+    .home__orange__title {
+        font-family: 'Changa One', cursive;
+        font-size: 3.5rem;
+        color: #fff;
+        line-height: 3rem;
+        text-transform: uppercase;
+        margin-top: 10%;
+    }
+
+    .home__orange__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        color: #0098A6;
+        text-transform: uppercase;
+    }
+
+    .home__slogan {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        color: #424242;
+        padding-left: 30%;
+        padding-right: 10%;
+        text-transform: uppercase;
+        margin-bottom: 10%;
+    }
+
+    .estrellita-fucsia {
+        height: 2rem;
+        width: auto;
+        padding: 0 0 0 1%;
+    }
+
+    .estrellita-fucsia-three {
+        padding-right: 2%;
+    }
+
 }

@@ -66,12 +66,14 @@
     line-height: 13rem;
     padding-top: 4%;
     padding-bottom: 3%;
+    text-align: center;
 }
 
 .quienes__intro__comilla {
     font-family: 'Changa One', cursive;
     font-size: 14rem;
     color: #DC0B7D;
+    text-align: center;
 }
 
 /* AGITADORAS */
@@ -115,42 +117,100 @@
 
 
 /* RESPONSIVE */
-@media screen and (max-width: 1440px) {
 
-.quienes__titulo__saludo {
+@media screen and (max-width: 1920px) {
+
+    .quienes__titulo__saludo {
         font-family: 'Changa One', cursive;
-        font-size: 20rem;
+        font-size: 15rem;
         color: #0098a6;
         text-transform: uppercase;
         padding: 0 10%;
     }
-    
+
     .quienes__titulo__nombres {
         font-family: 'Changa One', cursive;
-        font-size: 8rem;
-        line-height: 8rem;
+        font-size: 10rem;
+        line-height: 5rem;
         padding: 0% 10%;
         color: #F9AF4C;
     }
 
     .quienes__titulo__nombres--padding {
         padding: 3% 10% 5% 10%;
-        line-height: 8rem;
+        line-height: 10rem;
     }
-    
+
     .quienes__titulo__subtitulo {
         font-family: 'Montserrat', sans-serif;
-        font-size: 5.1rem;
+        font-size: 4.6rem;
         color: #DC0B7D;
         font-weight: 600;
         padding: 0 10%;
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     }
-    
+
     .estrellita-fucsia {
-        height: 8rem;
+        height: 7rem;
         width: auto;
-        padding-left: 7%;
+        padding-left: 3%;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 8rem;
+        color: #DC0B7D;
+    }
+
+    .quienes__agitadoras__nombre {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .quienes__agitadoras__descripcion {
+        font-size: 2.4rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1505px) {
+
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 15rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 10%;
+    }
+
+    .quienes__titulo__nombres {
+        font-family: 'Changa One', cursive;
+        font-size: 8rem;
+        line-height: 5rem;
+        padding: 0% 10%;
+        color: #F9AF4C;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 3% 10% 5% 10%;
+        line-height: 8.5rem;
+    }
+
+    .quienes__titulo__subtitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4rem;
+        color: #DC0B7D;
+        font-weight: 600;
+        padding: 0 10%;
+        margin-bottom: 3%;
+    }
+
+    .estrellita-fucsia {
+        height: 6rem;
+        width: auto;
+        padding-left: 2%;
     }
 
     .quienes__intro__comilla {
@@ -161,261 +221,440 @@
 
 }
 
-
-@media screen and (max-width: 1024px) {
-
-    .quienes__titulo__saludo {
-            font-family: 'Changa One', cursive;
-            font-size: 12rem;
-            color: #0098a6;
-            text-transform: uppercase;
-            padding: 0 10%;
-        }
-        
-        .quienes__titulo__nombres {
-            font-family: 'Changa One', cursive;
-            font-size: 6rem;
-            line-height: 6rem;
-            padding: 0% 10%;
-            color: #F9AF4C;
-        }
-    
-        .quienes__titulo__nombres--padding {
-            padding: 3% 10% 5% 10%;
-        }
-        
-        .quienes__titulo__subtitulo {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 4rem;
-            color: #DC0B7D;
-            font-weight: 600;
-            padding: 0 10%;
-            margin-bottom: 5%;
-        }
-
-        .quienes__intro__comilla {
-            font-family: 'Changa One', cursive;
-            font-size: 6rem;
-            color: #DC0B7D;
-        }
-        
-        .estrellita-fucsia {
-            height: 6rem;
-            width: auto;
-            padding-left: 7%;
-        }
-
-        .destacado-imagen {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .destacado-inicio {
-            font-size: 3.6rem;
-            font-weight: 600;
-            margin: 5% 0 3% 0;
-        }
-        
-        .destacado-parrafo {
-            font-size: 2.8rem;
-        }
-
-        .quienes__agitadoras__nombre {
-            font-family: 'Changa One', cursive;
-            font-size: 4rem;
-            line-height: 4rem;
-            color: #DC0B7D;
-            padding-top: 3%;
-            padding: 3% 3% 0 3%;
-        }
-        
-        .quienes__agitadoras__descripcion {
-            font-size: 2.2rem;
-            color: #000;
-        }
-    
+@media screen and (max-width:1259px) {
+    .destacado-inicio {
+        font-size: 3.6rem;
+        font-weight: 600;
+        margin: 2% 0 3% 0;
     }
 
-    @media screen and (max-width: 768px) {
+    .quienes__titulo__nombres--padding {
+        padding: 3% 5% 5% 10%;
+        line-height: 8.5rem;
+    }
 
-        .quienes__titulo__saludo {
-                font-family: 'Changa One', cursive;
-                font-size: 8rem;
-                color: #0098a6;
-                text-transform: uppercase;
-                padding: 0 10%;
-            }
-            
-            .quienes__titulo__nombres {
-                font-family: 'Changa One', cursive;
-                font-size: 4rem;
-                line-height: 4rem;
-                padding: 0% 10%;
-                color: #F9AF4C;
-            }
-        
-            .quienes__titulo__nombres--padding {
-                padding: 3% 10% 5% 10%;
-            }
-            
-            .quienes__titulo__subtitulo {
-                font-family: 'Montserrat', sans-serif;
-                font-size: 3rem;
-                color: #DC0B7D;
-                font-weight: 600;
-                padding: 0 10%;
-                margin-bottom: 5%;
-            }
-    
-            .quienes__intro__comilla {
-                font-family: 'Changa One', cursive;
-                font-size: 4rem;
-                color: #DC0B7D;
-            }
-            
-            .estrellita-fucsia {
-                height: 4rem;
-                width: auto;
-                padding-left: 10%;
-            }
-    
-            .destacado-imagen {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-    
-            .destacado-inicio {
-                font-size: 2.5rem;
-                font-weight: 600;
-                margin: 5% 0 3% 0;
-            }
-            
-            .destacado-parrafo {
-                font-size: 1.8rem;
-            }
-    
-            .quienes__agitadoras__nombre {
-                font-family: 'Changa One', cursive;
-                font-size: 3rem;
-                line-height: 3rem;
-                color: #DC0B7D;
-                padding-top: 3%;
-                padding: 3% 3% 0 3%;
-            }
-            
-            .quienes__agitadoras__descripcion {
-                font-size: 1.8rem;
-                color: #000;
-            }
-
-            .img__agitadoras {
-                width: 100%;
-                height: auto;
-            }
-
-            .quienes__agitadoras {
-                height: auto;
-                background-color: #F9AF4C;
-                text-align: center;
-                padding: 5% 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-        
-        }
+    .estrellita-fucsia {
+        height: 6rem;
+        width: auto;
+        padding-left: 4%;
+    }
+}
 
 
-        @media screen and (max-width: 575px) {
+@media screen and (max-width: 1224px) {
 
-            .quienes__titulo__saludo {
-                    font-family: 'Changa One', cursive;
-                    font-size: 8rem;
-                    color: #0098a6;
-                    text-transform: uppercase;
-                    padding: 0 10%;
-                }
-                
-                .quienes__titulo__nombres {
-                    font-family: 'Changa One', cursive;
-                    font-size: 4rem;
-                    line-height: 4rem;
-                    padding: 0% 10%;
-                    color: #F9AF4C;
-                }
-            
-                .quienes__titulo__nombres--padding {
-                    padding: 10% 10% 15% 10%;
-                }
-                
-                .quienes__titulo__subtitulo {
-                    font-family: 'Montserrat', sans-serif;
-                    font-size: 3rem;
-                    color: #DC0B7D;
-                    font-weight: 600;
-                    padding: 0 10%;
-                    margin-bottom: 10%;
-                }
-        
-                .quienes__intro__comilla {
-                    font-family: 'Changa One', cursive;
-                    font-size: 4rem;
-                    color: #DC0B7D;
-                }
-                
-                .estrellita-fucsia {
-                    height: 2.5rem;
-                    width: auto;
-                    padding-left: 7%;
-                }
-        
-                .destacado-imagen {
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-        
-                .destacado-inicio {
-                    font-size: 2.5rem;
-                    font-weight: 600;
-                    margin: 5% 0 3% 0;
-                }
-                
-                .destacado-parrafo {
-                    font-size: 1.8rem;
-                }
-        
-                .quienes__agitadoras__nombre {
-                    font-family: 'Changa One', cursive;
-                    font-size: 2rem;
-                    line-height: 2rem;
-                    color: #DC0B7D;
-                    padding-top: 3%;
-                    padding: 3% 3% 0 3%;
-                }
-                
-                .quienes__agitadoras__descripcion {
-                    font-size: 1.8rem;
-                    color: #000;
-                }
-    
-                .img__agitadoras {
-                    width: 60%;
-                    height: auto;
-                }
-    
-                .quienes__agitadoras {
-                    height: auto;
-                    background-color: #F9AF4C;
-                    text-align: center;
-                    padding: 10% 0;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                }
-            
-            }
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 12rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 10%;
+    }
+
+    .quienes__titulo__nombres {
+        font-family: 'Changa One', cursive;
+        font-size: 6rem;
+        line-height: 6rem;
+        padding: 0% 10%;
+        color: #F9AF4C;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 3% 10% 5% 10%;
+    }
+
+    .quienes__titulo__subtitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4rem;
+        color: #DC0B7D;
+        font-weight: 600;
+        padding: 0 10%;
+        margin-bottom: 5%;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 6rem;
+        color: #DC0B7D;
+    }
+
+    .estrellita-fucsia {
+        height: 5rem;
+        width: auto;
+        padding-left: 3%;
+    }
+
+    .destacado-imagen {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .destacado-parrafo {
+        font-size: 2.8rem;
+    }
+
+    .quienes__agitadoras__nombre {
+        font-family: 'Changa One', cursive;
+        font-size: 4rem;
+        line-height: 4rem;
+        color: #DC0B7D;
+        padding-top: 3%;
+        padding: 3% 3% 0 3%;
+    }
+
+    .quienes__agitadoras__descripcion {
+        font-size: 2.2rem;
+        color: #000;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .quienes__titulo__nombres {
+        font-family: 'Changa One', cursive;
+        font-size: 4rem;
+        line-height: 4rem;
+        padding: 0% 10%;
+        color: #F9AF4C;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 5% 2% 10% 5%;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        color: #DC0B7D;
+    }
+
+    .quienes__titulo__subtitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        color: #DC0B7D;
+        font-weight: 600;
+        padding: 0 10%;
+        margin-bottom: 5%;
+    }
+
+    .estrellita-fucsia {
+        height: 4rem;
+        width: auto;
+        padding-left: 2%;
+    }
+
+    .quienes__agitadoras {
+        height: auto;
+        background-color: #F9AF4C;
+        text-align: center;
+        padding: 5% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 8rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 10%;
+    }
+
+    .quienes__titulo__nombres {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        line-height: 3rem;
+        padding: 0% 10%;
+        color: #F9AF4C;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 5% 2% 10% 5%;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        color: #DC0B7D;
+    }
+
+    .quienes__titulo__subtitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: #DC0B7D;
+        font-weight: 600;
+        padding: 0 10%;
+        margin-bottom: 5%;
+    }
+
+
+    .estrellita-fucsia {
+        height: 3rem;
+        width: auto;
+        padding-left: 3%;
+    }
+
+    .destacado-imagen {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .destacado-inicio {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 5% 0 3% 0;
+    }
+
+    .destacado-parrafo {
+        font-size: 1.8rem;
+    }
+
+    .quienes__agitadoras__nombre {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        line-height: 3rem;
+        color: #DC0B7D;
+        padding-top: 3%;
+        padding: 3% 3% 0 3%;
+    }
+
+    .quienes__agitadoras__descripcion {
+        font-size: 1.8rem;
+        color: #000;
+    }
+
+    .img__agitadoras {
+        width: 100%;
+        height: auto;
+    }
+
+    .quienes__agitadoras {
+        height: auto;
+        background-color: #F9AF4C;
+        text-align: center;
+        padding: 5% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 8rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 10%;
+    }
+
+    .quienes__titulo__nombres {
+        font-family: 'Changa One', cursive;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        padding: 0% 10%;
+        color: #F9AF4C;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 5% 2% 10% 5%;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 5rem;
+        color: #DC0B7D;
+    }
+
+    .quienes__titulo__subtitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: #DC0B7D;
+        font-weight: 600;
+        padding: 0 10%;
+        margin-bottom: 5%;
+    }
+
+
+    .estrellita-fucsia {
+        height: 2.5rem;
+        width: auto;
+        padding-left: 3%;
+    }
+
+    .destacado-imagen {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .destacado-inicio {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 5% 0 3% 0;
+    }
+
+    .destacado-parrafo {
+        font-size: 1.8rem;
+    }
+
+    .quienes__agitadoras__nombre {
+        font-family: 'Changa One', cursive;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #DC0B7D;
+        padding-top: 3%;
+        padding: 3% 3% 0 3%;
+    }
+
+    .quienes__agitadoras__descripcion {
+        font-size: 1.8rem;
+        color: #000;
+    }
+
+    .img__agitadoras {
+        width: 60%;
+        height: auto;
+    }
+
+    .quienes__agitadoras {
+        height: auto;
+        background-color: #F9AF4C;
+        text-align: center;
+        padding: 10% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 6rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 10%;
+    }
+
+    .estrellita-fucsia {
+        height: 2rem;
+        width: auto;
+        padding-left: 3%;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 5% 2% 10% 5%;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        color: #DC0B7D;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 4rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 10%;
+    }
+
+    .quienes__titulo__nombres {
+        font-family: 'Changa One', cursive;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 0% 10%;
+        color: #F9AF4C;
+    }
+
+    .estrellita-fucsia {
+        height: 2rem;
+        width: auto;
+        padding-left: 3%;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 5% 2% 10% 5%;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        color: #DC0B7D;
+    }
+
+}
+
+@media screen and (max-width: 325px) {
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 4rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 5%;
+    }
+
+    .quienes__titulo__nombres {
+        font-family: 'Changa One', cursive;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 0% 5%;
+        color: #F9AF4C;
+    }
+
+    .quienes__titulo__subtitulo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6rem;
+        color: #DC0B7D;
+        font-weight: 600;
+        padding: 0 5%;
+        margin-bottom: 5%;
+    }
+
+    .estrellita-fucsia {
+        height: 2rem;
+        width: auto;
+        padding-left: 3%;
+    }
+
+    .quienes__titulo__nombres--padding {
+        padding: 5% 2% 10% 5%;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .quienes__intro__comilla {
+        font-family: 'Changa One', cursive;
+        font-size: 3rem;
+        color: #DC0B7D;
+    }
+
+}

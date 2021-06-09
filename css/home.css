@@ -488,7 +488,7 @@ img {
         color: #fff;
         line-height: 4rem;
         text-transform: uppercase;
-        margin-top: 4%;
+        margin-top: 6%;
     }
 
     .home__orange__subtitle {
@@ -523,7 +523,6 @@ img {
     }
 
 }
-
 
 
 @media screen and (max-width: 329px) {

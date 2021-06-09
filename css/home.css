@@ -4,16 +4,16 @@
 
 .home__titulo__main {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
-    line-height: 20rem;
+    font-size: 15rem;
+    line-height: 13rem;
     color: #0098a6;
     text-transform: uppercase;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .home__subtitle__main {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 15rem;
     color: #F9AF4C;
     margin-bottom: 3%;
     text-transform: uppercase;
@@ -23,9 +23,24 @@ img {
     vertical-align: baseline;
 }
 
+
+.re-doblecolor {
+    width: 23rem;
+    height: auto;
+}
+
 .re-arrow {
+    width: 20rem;
+    height: auto;
     vertical-align: middle;
     margin-right: 2%;
+    margin-left: 2%;
+}
+
+.estrellita-fucsia-main {
+    height: 8rem;
+    width: auto;
+    padding: 0 0% 0 1%;
 }
 
 
@@ -44,29 +59,31 @@ img {
 
 .home__orange__title {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 15rem;
     color: #fff;
-    line-height: 23.4rem;
+    line-height: 15rem;
     text-transform: uppercase;
-    padding: 0 5%;
+    padding: 0 2%;
 }
 
 .home__orange__subtitle {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 12rem;
     color: #0098A6;
     text-transform: uppercase;
 }
 
 .home__slogan {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #424242;
-    padding-left: 27%;
+    padding-left: 2%;
     text-transform: uppercase;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 }
 
 .estrellita-fucsia {
+    height: 8rem;
+    width: auto;
     padding: 0 1%;
 }
 

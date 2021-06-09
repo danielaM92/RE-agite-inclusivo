@@ -11,28 +11,33 @@
 
 .quienes__titulo__saludo {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 13rem;
+    line-height: 13rem;
     color: #0098a6;
     text-transform: uppercase;
-    margin-top: 3%;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 .quienes__titulo__nombres {
     font-family: 'Changa One', cursive;
-    font-size: 14rem;
+    font-size: 8rem;
     color: #F9AF4C;
 }
 
 .quienes__titulo__subtitulo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 5.1rem;
+    font-size: 8rem;
     color: #DC0B7D;
     font-weight: 600;
-    margin-bottom: 6%;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 
 .estrellita-fucsia {
-    padding-left: 5%;
+    width: auto;
+    height: 8rem;
+    padding-left: 3%;
 }
 
 
@@ -69,9 +74,14 @@
     text-align: center;
 }
 
+.quienes__titulo__nombres--padding {
+    padding: 3% 10% 5% 10%;
+    line-height: 10rem;
+}
+
 .quienes__intro__comilla {
     font-family: 'Changa One', cursive;
-    font-size: 14rem;
+    font-size: 8rem;
     color: #DC0B7D;
     text-align: center;
 }
@@ -122,17 +132,18 @@
 
     .quienes__titulo__saludo {
         font-family: 'Changa One', cursive;
-        font-size: 15rem;
+        font-size: 8rem;
         color: #0098a6;
         text-transform: uppercase;
-        padding: 0 10%;
+        margin-top: 1%;
+        padding: 0 5%;
     }
 
     .quienes__titulo__nombres {
         font-family: 'Changa One', cursive;
-        font-size: 10rem;
+        font-size: 8rem;
         line-height: 5rem;
-        padding: 0% 10%;
+        padding: 0 5%;
         color: #F9AF4C;
     }
 
@@ -146,7 +157,7 @@
         font-size: 4.6rem;
         color: #DC0B7D;
         font-weight: 600;
-        padding: 0 10%;
+        padding: 0 5%;
         margin-bottom: 3%;
     }
 
@@ -179,17 +190,17 @@
 
     .quienes__titulo__saludo {
         font-family: 'Changa One', cursive;
-        font-size: 15rem;
+        font-size: 10rem;
         color: #0098a6;
         text-transform: uppercase;
-        padding: 0 10%;
+        padding: 0 5%;
     }
 
     .quienes__titulo__nombres {
         font-family: 'Changa One', cursive;
         font-size: 8rem;
         line-height: 5rem;
-        padding: 0% 10%;
+        padding: 0 5%;
         color: #F9AF4C;
     }
 
@@ -203,7 +214,7 @@
         font-size: 4rem;
         color: #DC0B7D;
         font-weight: 600;
-        padding: 0 10%;
+        padding: 0 5%;
         margin-bottom: 3%;
     }
 
@@ -222,6 +233,23 @@
 }
 
 @media screen and (max-width:1259px) {
+
+    .quienes__titulo__saludo {
+        font-family: 'Changa One', cursive;
+        font-size: 10rem;
+        color: #0098a6;
+        text-transform: uppercase;
+        padding: 0 5%;
+    }
+
+    .quienes__titulo__nombres {
+        padding: 0 5%;
+    }
+
+    .quienes__titulo__subtitulo {
+        padding: 0 5%;
+    }
+
     .destacado-inicio {
         font-size: 3.6rem;
         font-weight: 600;
@@ -245,17 +273,18 @@
 
     .quienes__titulo__saludo {
         font-family: 'Changa One', cursive;
-        font-size: 12rem;
+        font-size: 10rem;
         color: #0098a6;
         text-transform: uppercase;
-        padding: 0 10%;
+        padding: 0 5%;
     }
+
 
     .quienes__titulo__nombres {
         font-family: 'Changa One', cursive;
         font-size: 6rem;
         line-height: 6rem;
-        padding: 0% 10%;
+        padding: 0 5%;
         color: #F9AF4C;
     }
 
@@ -268,8 +297,8 @@
         font-size: 4rem;
         color: #DC0B7D;
         font-weight: 600;
-        padding: 0 10%;
-        margin-bottom: 5%;
+        padding: 0 5%;
+        margin-bottom: 2%;
     }
 
     .quienes__intro__comilla {
@@ -315,8 +344,12 @@
         font-family: 'Changa One', cursive;
         font-size: 4rem;
         line-height: 4rem;
-        padding: 0% 10%;
+        padding: 0 5%;
         color: #F9AF4C;
+    }
+
+    .quienes__titulo__saludo {
+        padding: 0 5%;
     }
 
     .quienes__titulo__nombres--padding {
@@ -336,8 +369,8 @@
         font-size: 2.5rem;
         color: #DC0B7D;
         font-weight: 600;
-        padding: 0 10%;
-        margin-bottom: 5%;
+        padding: 0 5%;
+        margin-bottom: 2%;
     }
 
     .estrellita-fucsia {
@@ -366,14 +399,14 @@
         font-size: 8rem;
         color: #0098a6;
         text-transform: uppercase;
-        padding: 0 10%;
+        padding: 0 5%;
     }
 
     .quienes__titulo__nombres {
         font-family: 'Changa One', cursive;
         font-size: 3rem;
         line-height: 3rem;
-        padding: 0% 10%;
+        padding: 0 5%;
         color: #F9AF4C;
     }
 
@@ -394,8 +427,8 @@
         font-size: 2rem;
         color: #DC0B7D;
         font-weight: 600;
-        padding: 0 10%;
-        margin-bottom: 5%;
+        padding: 0 5%;
+        margin-bottom: 2%;
     }
 
 
@@ -461,14 +494,14 @@
         font-size: 8rem;
         color: #0098a6;
         text-transform: uppercase;
-        padding: 0 10%;
+        padding: 0 5%;
     }
 
     .quienes__titulo__nombres {
         font-family: 'Changa One', cursive;
         font-size: 2.5rem;
         line-height: 4rem;
-        padding: 0% 10%;
+        padding: 0 5%;
         color: #F9AF4C;
     }
 
@@ -489,8 +522,8 @@
         font-size: 2rem;
         color: #DC0B7D;
         font-weight: 600;
-        padding: 0 10%;
-        margin-bottom: 5%;
+        padding: 0 5%;
+        margin-bottom: 2%;
     }
 
 
@@ -554,7 +587,16 @@
         font-size: 6rem;
         color: #0098a6;
         text-transform: uppercase;
-        padding: 0 10%;
+        padding: 0 5%;
+    }
+
+    .quienes__titulo__nombres {
+        padding: 0 5%;
+    }
+
+    .quienes__titulo__subtitulo {
+        padding: 0 5%;
+        margin-bottom: 2%;
     }
 
     .estrellita-fucsia {
@@ -582,15 +624,21 @@
         font-size: 4rem;
         color: #0098a6;
         text-transform: uppercase;
-        padding: 0 10%;
+        padding: 0 5%;
     }
 
     .quienes__titulo__nombres {
         font-family: 'Changa One', cursive;
         font-size: 2rem;
         line-height: 2rem;
-        padding: 0% 10%;
+        padding: 0% 5%;
         color: #F9AF4C;
+    }
+
+    .quienes__titulo__subtitulo {
+        padding: 0% 5%;
+        font-size: 1.8rem;
+        margin-bottom: 2%;
     }
 
     .estrellita-fucsia {
@@ -636,7 +684,7 @@
         color: #DC0B7D;
         font-weight: 600;
         padding: 0 5%;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
 
     .estrellita-fucsia {

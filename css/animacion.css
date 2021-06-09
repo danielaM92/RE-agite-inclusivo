@@ -4,11 +4,11 @@
 
 .animacion__titulo__main {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 13rem;
     color: #0098a6;
-    line-height: 23.4rem;
-    margin-top: 3%;
-    margin-bottom: 4%;
+    line-height: 13rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
     text-transform: uppercase;
 }
 
@@ -16,20 +16,22 @@
 
 .animacion__subtitle {
     font-family: 'Changa One', cursive;
-    font-size: 14rem;
+    font-size: 8rem;
     color: #F9AF4C;
     padding-bottom: 2%;
 }
 
 .animacion__subtitle__fuscia {
     font-family: 'Changa One', cursive;
-    font-size: 14rem;
+    font-size: 8rem;
     color: #DC0B7D;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 
 .estrellita-fucsia {
-    padding-left: 5%;
+    width: auto;
+    height: 6rem;
+    padding-left: 1%;
 }
 
 
@@ -55,7 +57,7 @@
 .contacta-boton {
     width: 50%;
     height: auto;
-    padding: 4% 0;
+    padding: 3% 0;
     margin: 10% 0 10% 0;
     background: #F9AF4C;
     font-size: 3rem;
@@ -75,109 +77,70 @@
 /* RESPONSIVE */
 @media screen and (max-width: 1920px) {
 
-    .animacion__titulo__main {
-        font-family: 'Changa One', cursive;
-        font-size: 15rem;
-        color: #0098a6;
-        margin-top: 3%;
-        margin-bottom: 1%;
-        margin-left: 4%;
-        text-transform: uppercase;
+    .animacion__title {
+        padding: 0 4%;
     }
-    
-    /* SUBTITULO ANIMACIONES */
-    
-    .animacion__subtitle {
-        font-family: 'Changa One', cursive;
-        font-size: 10rem;
-        color: #F9AF4C;
-        padding-bottom: 2%;
-        margin-left: 4%;
-    }
-    
-    .animacion__subtitle__fuscia {
-        font-family: 'Changa One', cursive;
-        font-size: 10rem;
-        color: #DC0B7D;
-        margin-bottom: 5%;
-        margin-left: 4%;
-    }
-    
-    .estrellita-fucsia {
-        width: auto;
-        height: 10rem;
-        padding-left: 5%;
-    }
-}
 
-@media screen and (max-width: 1760px) {
     .animacion__titulo__main {
         font-family: 'Changa One', cursive;
-        font-size: 15em;
+        font-size: 8rem;
+        line-height: 10rem;
         color: #0098a6;
-        line-height: 15rem;
-        margin-bottom: 4%;
+        padding: 0 2%;
+        margin-top: 2%;
+        margin-bottom: 1%;
         text-transform: uppercase;
     }
     
     /* SUBTITULO ANIMACIONES */
     
     .animacion__subtitle {
-        font-family: 'Changa One', cursive;
-        font-size: 7rem;
-        color: #F9AF4C;
-        padding-bottom: 1%;
-    }
-    
-    .animacion__subtitle__fuscia {
         font-family: 'Changa One', cursive;
         font-size: 5rem;
-        color: #DC0B7D;
-        margin-bottom: 3%;
+        color: #F9AF4C;
+        padding-bottom: 1%;
+        padding: 0 2%;
     }
     
-    .estrellita-fucsia {
-        width: auto;
-        height: 5rem;
-        padding-left: 2%;
-    }
-}
-
-
-@media screen and (max-width: 1239px) {
-    .animacion__titulo__main {
-        font-family: 'Changa One', cursive;
-        font-size: 12em;
-        color: #0098a6;
-        line-height: 15rem;
-        margin-bottom: 2%;
-        text-transform: uppercase;
-    }
-
     .animacion__subtitle__fuscia {
         font-family: 'Changa One', cursive;
         font-size: 4rem;
         color: #DC0B7D;
-        margin-bottom: 3%;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        padding: 0 2%;
     }
-
+    
     .estrellita-fucsia {
         width: auto;
-        height: 4rem;
-        padding-left: 2%;
+        height: 3rem;
+        padding-left: 1%;
     }
 }
 
-@media screen and (max-width: 1010px) {
-    .animacion__titulo__main {
-        font-family: 'Changa One', cursive;
-        font-size: 10em;
-        color: #0098a6;
-        line-height: 15rem;
-        margin-bottom: 2%;
-        text-transform: uppercase;
+
+@media screen and (max-width: 1760px) {
+
+    .estrellita-fucsia {
+        width: auto;
+        height: 3rem;
+        padding-left: 1%;
     }
-    
+}
+
+
+@media screen and (max-width: 1257px) {
+
+    .estrellita-fucsia {
+        width: auto;
+        height: 2rem;
+        padding-left: 1%;
+    }
+}
+
+
+@media screen and (max-width: 1010px) {
+
     /* SUBTITULO ANIMACIONES */
     
     .animacion__subtitle {
@@ -197,7 +160,7 @@
     .estrellita-fucsia {
         width: auto;
         height: 3rem;
-        padding-left: 2%;
+        padding-left: 1%;
     }
 }
 
@@ -276,7 +239,7 @@
     }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 523px) {
     .animacion__titulo__main {
         font-family: 'Changa One', cursive;
         font-size: 6em;
@@ -360,12 +323,31 @@
     }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 340px) {
     .animacion__titulo__main {
         font-family: 'Changa One', cursive;
         font-size: 4em;
         color: #0098a6;
         text-transform: uppercase;
+    }
+
+    .animacion__subtitle {
+        font-family: 'Changa One', cursive;
+        font-size: 2.5rem;
+        color: #F9AF4C;
+    }
+
+    .animacion__subtitle__fuscia {
+        font-family: 'Changa One', cursive;
+        font-size: 1.8rem;
+        color: #DC0B7D;
+        margin-bottom: 10%;
+    }
+
+    .estrellita-fucsia {
+        width: auto;
+        height: 1.5rem;
+        padding-left: 0%;
     }
 
 }

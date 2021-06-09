@@ -9,7 +9,7 @@
 
 .contacto__title {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 13rem;
     color: #0098A6;
     text-transform: uppercase;
 }
@@ -30,24 +30,25 @@
 @media screen and (max-width: 1920px) {
     .contacto__page {
     min-height: 0px;
+    padding: 2% 5%;
 }
     
     .contacto__title {
         font-family: 'Changa One', cursive;
-        font-size: 15rem;
+        font-size: 8rem;
         color: #0098A6;
         text-transform: uppercase;
     }
     
     .contacto__email {
         font-family: 'Changa One', cursive;
-        font-size: 5rem;
+        font-size: 4rem;
         color: #F9AF4C;
     }
     
     .contacto__telefono {
         font-family: 'Changa One', cursive;
-        font-size: 7rem;
+        font-size: 4rem;
         color: #DC0B7D;
     }
 
@@ -57,54 +58,6 @@
 }
 
 
-
-@media screen and (max-width: 1464px) {
-
-    .contacto__title {
-        font-family: 'Changa One', cursive;
-        font-size: 15rem;
-        color: #0098A6;
-        text-transform: uppercase;
-    }
-    
-    .contacto__email {
-        font-family: 'Changa One', cursive;
-        font-size: 7rem;
-        color: #F9AF4C;
-    }
-    
-    .contacto__telefono {
-        font-family: 'Changa One', cursive;
-        font-size: 7rem;
-        color: #DC0B7D;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    
-    .contacto__title {
-        font-family: 'Changa One', cursive;
-        font-size: 11rem;
-        color: #0098A6;
-        text-transform: uppercase;
-    }
-    
-    .contacto__email {
-        font-family: 'Changa One', cursive;
-        font-size: 4rem;
-        color: #F9AF4C;
-    }
-    
-    .contacto__telefono {
-        font-family: 'Changa One', cursive;
-        font-size: 4rem;
-        color: #DC0B7D;
-    }
-
-    .footer__container {
-        margin-top: 10%;
-    }
-}
 
 @media screen and (max-width: 600px) {
     .contacto__title {

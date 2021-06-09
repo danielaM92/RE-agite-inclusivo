@@ -70,7 +70,7 @@
 }
 
 .animacion__title {
-    padding: 0 2%;
+    padding: 0 0%;
 }
 
 
@@ -140,6 +140,18 @@
 
 
 @media screen and (max-width: 1010px) {
+
+    .animacion__titulo__main {
+        padding: 0 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-transform: uppercase;
+    }
+    
+
+    .animacion__title {
+        padding: 0 2%;
+    }
 
     /* SUBTITULO ANIMACIONES */
     
@@ -294,8 +306,9 @@
     
     .animacion__subtitle {
         font-family: 'Changa One', cursive;
-        font-size: 4rem;
+        font-size: 2.5rem;
         color: #F9AF4C;
+        padding-top:3%;
     }
     
     .animacion__subtitle__fuscia {

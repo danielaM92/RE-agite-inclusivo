@@ -146,6 +146,7 @@ img {
         font-size: 10rem;
         color: #fff;
         line-height: 10rem;
+        padding: 0 5%;
         text-transform: uppercase;
     }
 
@@ -455,7 +456,7 @@ img {
         font-size: 4rem;
         line-height: 4rem;
         color: #F9AF4C;
-        margin-bottom: 8%;
+        margin-bottom: 6%;
         text-transform: uppercase;
     }
 
@@ -464,7 +465,7 @@ img {
     }
 
     .re-doblecolor {
-        width: 8rem;
+        width: 6rem;
         height: auto;
     }
 
@@ -522,6 +523,7 @@ img {
     }
 
 }
+
 
 
 @media screen and (max-width: 329px) {
